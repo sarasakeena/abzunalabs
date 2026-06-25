@@ -10,3 +10,7 @@ desktop.ini
 
 # Agents
 .agents/
+*.jpg
+*.jpeg
+*.JPG
+*.mp4
