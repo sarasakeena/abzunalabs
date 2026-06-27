@@ -182,14 +182,14 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.innerHTML = originalText;
         btn.disabled = false;
         formSuccess.style.display = 'block';
-        formSuccess.innerHTML = "✅ Request received! A confirmation email has been sent to your inbox. Our team will contact you shortly.";
+        formSuccess.innerHTML = "✅ Message received! A confirmation email is on its way to you. Our team will contact you within 24 hours.";
         formSuccess.style.color = "var(--success)";
         formSuccess.style.backgroundColor = "rgba(16,185,129,0.08)";
         formSuccess.style.borderColor = "var(--success)";
         
         setTimeout(() => {
           formSuccess.style.display = 'none';
-        }, 7000);
+        }, 8000);
       })
       .catch(error => {
         btn.innerHTML = originalText;
